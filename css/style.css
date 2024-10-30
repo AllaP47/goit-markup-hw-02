@@ -5,6 +5,10 @@ body {
   border: 1px solid #000;
   width: 1440px;
   height: 3300px;
+  border-radius: 16px 16px 0 0;
+  padding: 16px 0px;
+  width: 1053px;
+  height: 164px;
 }
 
 header {
@@ -37,7 +41,7 @@ header {
 .hero-image {
   background-color: #2e2f42;
   font-family: "Roboto", sans-serif;
-  font-family: "Roboto", sans-serif;
+
   font-weight: 700;
   font-size: 56px;
 
@@ -46,6 +50,10 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  border-radius: 16px 16px 0 0;
+  padding: 16px 0px;
+  width: 1053px;
+  height: 164px;
 }
 
 button {
@@ -56,9 +64,28 @@ button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-
+  background-color: #4d5ae5;
   /* line-height: 24px; */
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
+  border-radius: 16px 16px 0 0;
+  padding: 16px 0px;
+  width: 1053px;
+  height: 164px;
+}
+.opportunities {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+  border-radius: 16px 16px 0 0;
+  padding: 16px 0px;
+  width: 1053px;
+  height: 184px;
 }
