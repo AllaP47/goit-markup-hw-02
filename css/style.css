@@ -8,14 +8,57 @@ body {
 }
 
 header {
-  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .nav-link {
+  background-color: #ffffff;
   border: 1px solid #000;
   width: 115px;
   height: 21px;
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.hero-image {
+  background-color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+
+  /* line-height: 60px; */
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
