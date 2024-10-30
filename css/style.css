@@ -12,3 +12,10 @@ header {
   background-color: #ffffff;
   color: #2e2f42;
 }
+
+.nav-link {
+  border: 1px solid #000;
+  width: 115px;
+  height: 21px;
+  font-family: "Roboto", sans-serif;
+}
