@@ -66,19 +66,26 @@ a {
   color: #fff;
 }
 button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
   font-style: normal;
   background-color: #4d5ae5;
 }
-.text-button:hover,
-.text-button:focus {
+button:hover,
+button:focus {
+  cursor: pointer;
   background-color: #404bbf;
 }
-.text-button {
+.text-button > button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
+}
+.text-button {
   color: #fff;
 }
 .opportunities-item {
@@ -86,7 +93,8 @@ button {
   width: 264px;
   height: 104px;
 }
-.opportunities .h3 {
+.opportunities-name {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -94,6 +102,7 @@ button {
   color: #2e2f42;
 }
 .opportunities-text {
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -121,6 +130,7 @@ button {
   width: 264px;
   height: 380px;
   justify-content: stretch;
+  background-color: #ffffff;
 }
 .team-item .team-image {
   background-color: #fff;
@@ -128,20 +138,22 @@ button {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-item .team-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  background-color: #fff;
 }
 .team-item .team-position {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  background-color: #fff;
 }
 .portfolio-box {
   box-sizing: border-box;
@@ -190,5 +202,10 @@ button {
   color: #f4f4fd;
 }
 .text-footer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
