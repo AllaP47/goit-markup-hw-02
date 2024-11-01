@@ -46,6 +46,8 @@ a {
 }
 
 .address-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -55,9 +57,10 @@ a {
   background-color: #2e2f42;
 }
 .hero-image .hero-text {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -66,10 +69,23 @@ button {
   font-style: normal;
   background-color: #4d5ae5;
 }
+.text-button:hover,
+.text-button:focus {
+  background-color: #404bbf;
+}
 .text-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
   color: #fff;
 }
-
+.opportunities-item {
+  box-sizing: border-box;
+  width: 264px;
+  height: 104px;
+}
 .opportunities .h3 {
   font-weight: 500;
   font-size: 20px;
@@ -85,15 +101,29 @@ button {
   color: #434455;
 }
 .team {
+  border: 1px solid rgba(0, 0, 0, 0.2);
   background-color: #f4f4fd;
 }
 .team-logo {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
+.team-item {
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+  justify-content: stretch;
+}
 .team-item .team-image {
+  background-color: #fff;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -113,7 +143,47 @@ button {
   color: #434455;
   background-color: #fff;
 }
+.portfolio-box {
+  box-sizing: border-box;
+}
+.portfolio-logo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.portfolio-item-1 .portfolio-item-2 {
+  box-sizing: border-box;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  width: 360px;
+  height: 120px;
+  text-align: center;
+}
+.portfolio-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.portfolio-action {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
 .page-footer {
+  box-sizing: border-box;
+
   background-color: #2e2f42;
 }
 .page-footer .logo-part {
