@@ -107,7 +107,6 @@ button:focus {
 }
 
 .team {
-  border: 1px solid rgba(0, 0, 0, 0.2);
   background-color: #f4f4fd;
 }
 
@@ -122,8 +121,6 @@ button:focus {
 }
 
 .team-item {
-  border: 1px solid rgba(0, 0, 0, 0.2);
-
   justify-content: stretch;
   background-color: #ffffff;
 }
